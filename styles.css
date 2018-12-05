@@ -1,0 +1,76 @@
+.h1{ text-align:center;}
+
+
+.main{
+    display: flex; 
+    justify-content:space-between;
+    text-align: right;
+    padding: 10px;
+    border: 25px solid green;
+    color:white;
+
+}
+.header{
+    border: 10px solid Red ;
+    padding: 10px 0;
+}
+
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+body {
+ background-image: url( "https://blog.bufferapp.com/wp-content/uploads/2016/06/giphy.gif");
+}
+
+h1{
+    text-align:center;
+    Color:white;
+  text-shadow: 2px 2px 5px red;
+}
+
+
+
+
+.wrapper{
+    max-width: 400px;
+    background: green;
+    height: 40px;
+    text-align: right;
+}
+
+
+.marquee {
+    background: red;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+    font-size:40px;
+}
+
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}
+
+h2{ color:white;}
+
+img{width:380px;}
+
+div {font-family: 'Unlock', cursive;}
+
+h2{font-family: 'Bungee', cursive;}
